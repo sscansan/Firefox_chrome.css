@@ -29,4 +29,16 @@ Go to `about:config` and set all of the following to `true`:
 
 Paste the content of `userChrome.css` in your local chrome/userChrome.css
 
+And then go to `Sidebery settings` > `General` > `Preface value`, enable it and set it to `XXX`.
+
+Now You also need to remove indent when the bar is collapsed, or you won't be able to see all tabs
+
+Go to `SideBery settings` --> `Styles editor` and add:
+
+```
+#root:not(:hover){
+  --tabs-indent: 0;
+}
+```
+
 done!
