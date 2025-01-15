@@ -1,5 +1,7 @@
 # Firefox .css tweaks
 
+*here my take on Morrolinux's minimal firefox* https://gist.github.com/morrolinux/87aa37396432ea5d14a9220bc4892100
+
 ## Enable Firefox features
 
 Go to `about:config` and set all of the following to `true`:
